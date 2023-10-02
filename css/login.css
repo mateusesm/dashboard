@@ -1,0 +1,44 @@
+div.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+div.container h1 {
+  padding: 1rem;
+}
+
+div.container form {
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 4rem;
+}
+
+div.container form input:focus {
+  border-color: #198754;
+}
+
+div.container form input[type=checkbox] {
+  background-color: #fff;
+  border-color: #198754;
+  cursor: pointer;
+}
+
+div.container form input[type=checkbox]:checked {
+  color: #198754;
+  background-color: #198754;
+}
+
+div.container form button {
+  width: 100%;
+  background-color: #198754;
+  border: none;
+}
+
+div.container form button:hover {
+  background-color: #198754;
+  filter: brightness(80%)
+}
